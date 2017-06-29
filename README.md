@@ -1,6 +1,6 @@
-# Puzzle Frontend Code Guidelines
+# Puzzle Frontend Coding Guidelines
 
-This repository provides code conventions for JavaScript, TypeScript, CSS and HTML, when used in software projects at Puzzle ITC. According to the Puzzle [QM Guide](https://twiki.puzzle.ch/bin/view/Puzzle/CodeConventions), the goal is to use coding conventions and automatically verify them.
+This repository provides guidelines, recommendations and code conventions for JavaScript, TypeScript, CSS and HTML to be used in software projects at Puzzle ITC. According to the Puzzle [QM Guide](https://twiki.puzzle.ch/bin/view/Puzzle/CodeConventions), code conventions must be used and automatically verified in software projects.
 
 Please contact the [frontend workgroup](https://twiki.puzzle.ch/bin/view/Puzzle/Frontend) for questions or create pull requests for improvements.
 
@@ -35,11 +35,11 @@ Always use the [Yarn](https://yarnpkg.com/) package manager instead of NPM. It u
 
 Don't install Yarn using NPM, see [Installation](https://yarnpkg.com/en/docs/install).
 
-To use Yarn on Jenkins, read [these instructions](https://twiki.puzzle.ch/bin/view/Puzzle/Buildserver#Node_js_NPM_auf_Jenkins).
+To setup Yarn on Jenkins, read [these instructions](https://twiki.puzzle.ch/bin/view/Puzzle/Buildserver#Node_js_NPM_auf_Jenkins).
 
 ### Linting & Fixing
 
-Use either `eslint` (JavaScript) or `tslint` (TypeScript) to enforce coding conventions. Add the package `@puzzleitc/frontend-guides` to your project and provide the appropriate linter configuration as described below.
+Use either `eslint` (JavaScript) or `tslint` (TypeScript) to enforce code conventions. Add the package `@puzzleitc/frontend-guides` to your project and provide the appropriate linter configuration as described below.
 
 You may use `eslint --fix '**/*.js'` or `tslint --fix '**/*.ts'` to automatically fix linting issues where possible.
 
@@ -61,7 +61,7 @@ Consider the [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascrip
 Recommendations:
 
 * Lean towards [NPM scripts](https://docs.npmjs.com/misc/scripts) (see [Why I Left Gulp and Grunt for npm Scripts](https://medium.freecodecamp.com/why-i-left-gulp-and-grunt-for-npm-scripts-3d6853dd22b8)), otherwise use [Gulp](http://gulpjs.com/)
-* If you need a module bundler: use Webpack
+* If you need a module bundler: use [Webpack](http://webpack.github.io/)
 * TODO: transpiling
 
 ### AngularJS
@@ -80,6 +80,8 @@ In addition to the Airbnb Guide, consider John Papa's [Angular 1 Style Guide](ht
 
 
 ## TypeScript
+
+Consider the [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript).
 
 > Add the Puzzle linting rules to your project:
 > ```
@@ -117,8 +119,7 @@ In addition to the Airbnb Guide, consider the official [Angular Style Guide](htt
 Recommendations:
 
 * Use TypeScript
-* Use Webpack or Angular CLI
-* For testing, use Karma/Jasmine
+* Use [Webpack](http://webpack.github.io/) or the [Angular CLI](https://github.com/angular/angular-cli)
 
 
 ## Cascading Style Sheets
@@ -149,6 +150,6 @@ TODO:
 
 TODO:
 
-* selectize
-* Testing (Angular): Karma/Jasmine
+* Selectize
+* Testing (AngularJS & Angular): Karma/Jasmine
 * ...
