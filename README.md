@@ -37,6 +37,12 @@ Don't install Yarn using NPM, see [Installation](https://yarnpkg.com/en/docs/ins
 
 To use Yarn on Jenkins, read [these instructions](https://twiki.puzzle.ch/bin/view/Puzzle/Buildserver#Node_js_NPM_auf_Jenkins).
 
+### Linting & Fixing
+
+Use `eslint` (JavaScript) or `tslint` (TypeScript) to enforce coding conventions. Add the package `@puzzleitc/frontend-guides` to your project and provide the appropriate linter configuration as described below.
+
+You may use `eslint --fix '**/*.js'` or `tslint --fix '**/*.ts'` to automatically fix linting issues where possible.
+
 
 ## JavaScript
 
