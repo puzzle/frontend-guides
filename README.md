@@ -7,6 +7,9 @@ Please contact the [frontend workgroup](https://twiki.puzzle.ch/bin/view/Puzzle/
 
 ## JavaScript
 
+* Lean towards [NPM scripts](https://docs.npmjs.com/misc/scripts) (see [Why I Left Gulp and Grunt for npm Scripts](https://medium.freecodecamp.com/why-i-left-gulp-and-grunt-for-npm-scripts-3d6853dd22b8)), otherwise use [Gulp](http://gulpjs.com/)
+* If you need a module bundler: use Webpack
+
 Consider the [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript).
 
 ### Yarn
@@ -19,6 +22,8 @@ To use Yarn on Jenkins, read [these instructions](https://twiki.puzzle.ch/bin/vi
 
 ### AngularJS
 
+* For testing, use Karma/Jasmine
+
 In addition to the Airbnb Guide, consider John Papa's [Angular 1 Style Guide](https://github.com/johnpapa/angular-styleguide/tree/master/a1) for code conventions and application structure. Use [eslint-plugin-angular](https://github.com/Gillespie59/eslint-plugin-angular) to enforce these rules.
 
 
@@ -30,6 +35,7 @@ In addition to the Airbnb Guide, consider John Papa's [Angular 1 Style Guide](ht
 
 * Use TypeScript
 * Use Webpack or Angular CLI
+* For testing, use Karma/Jasmine
 
 In addition to the Airbnb Guide, consider the official [Angular Style Guide](https://angular.io/guide/styleguide) for code conventions and application structure. Use [codelyzer](https://github.com/mgechev/codelyzer) to enforce these rules.
 
@@ -42,7 +48,7 @@ TODO:
 
 * SASS usage
 * postCSS/autoprefixer/cssnano
-* SMACSS
+* SMACSS?
 
 
 ## Hypertext Markup Language
