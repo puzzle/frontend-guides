@@ -5,12 +5,29 @@ This repository provides code conventions for JavaScript, TypeScript, CSS and HT
 Please contact the [frontend workgroup](https://twiki.puzzle.ch/bin/view/Puzzle/Frontend) for questions or create pull requests for improvements.
 
 
-## JavaScript
+## General
 
-* Lean towards [NPM scripts](https://docs.npmjs.com/misc/scripts) (see [Why I Left Gulp and Grunt for npm Scripts](https://medium.freecodecamp.com/why-i-left-gulp-and-grunt-for-npm-scripts-3d6853dd22b8)), otherwise use [Gulp](http://gulpjs.com/)
-* If you need a module bundler: use Webpack
+### EditorConfig
 
-Consider the [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript).
+[EditorConfig](http://editorconfig.org/) helps define and maintain consistent coding styles between different editors and IDEs ([supporting editors/IDEs](http://editorconfig.org/#download)).
+
+Put the following ``.editorconfig`` file in your frontend application's root:
+
+    # http://editorconfig.org
+
+    root = true
+
+    [*]
+    charset = utf-8
+    indent_style = space
+    indent_size = 2
+    end_of_line = lf
+    insert_final_newline = true
+    trim_trailing_whitespace = true
+
+    [*.{diff,md}]
+    insert_final_newline = false
+    trim_trailing_whitespace = false
 
 ### Yarn
 
@@ -19,6 +36,14 @@ Always use the [Yarn](https://yarnpkg.com/) package manager instead of NPM. It u
 Don't install Yarn using NPM, see [Installation](https://yarnpkg.com/en/docs/install).
 
 To use Yarn on Jenkins, read [these instructions](https://twiki.puzzle.ch/bin/view/Puzzle/Buildserver#Node_js_NPM_auf_Jenkins).
+
+
+## JavaScript
+
+* Lean towards [NPM scripts](https://docs.npmjs.com/misc/scripts) (see [Why I Left Gulp and Grunt for npm Scripts](https://medium.freecodecamp.com/why-i-left-gulp-and-grunt-for-npm-scripts-3d6853dd22b8)), otherwise use [Gulp](http://gulpjs.com/)
+* If you need a module bundler: use Webpack
+
+Consider the [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript).
 
 ### AngularJS
 
@@ -54,3 +79,8 @@ TODO:
 ## Hypertext Markup Language
 
 Consider Github's [Primer Code Guidelines](http://primercss.io/guidelines/).
+
+
+## Preferred Packages & Widgets
+
+TODO
