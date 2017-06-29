@@ -1,7 +1,7 @@
 {
   "name": "@puzzleitc/frontend-guides",
   "version": "1.0.1",
-  "description": "Puzzle Frontend Code Guidelines",
+  "description": "Puzzle Frontend Coding Guidelines",
   "main": "index.js",
   "repository": "https://github.com/puzzle/frontend-guides.git",
   "author": "Damian Senn <senn@puzzle.ch>",
