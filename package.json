@@ -1,0 +1,26 @@
+{
+  "name": "@puzzleitc/frontend-guides",
+  "version": "1.0.0",
+  "description": "Puzzle Frontend Code Guidelines",
+  "main": "index.js",
+  "repository": "https://github.com/puzzle/frontend-guides.git",
+  "author": "Damian Senn <senn@puzzle.ch>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint '**/*.js'"
+  },
+  "dependencies": {
+    "codelyzer": "^3.1.1",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-angular": "^3.0.0",
+    "eslint-plugin-import": "^2.6.1",
+    "tslint-config-airbnb": "^5.2.0"
+  },
+  "devDependencies": {
+    "@angular/compiler": "^4.2.4",
+    "@angular/core": "^4.2.4",
+    "eslint": "^4.1.1",
+    "rxjs": "^5.4.1",
+    "typescript": "^2.4.1"
+  }
+}
