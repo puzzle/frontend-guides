@@ -32,6 +32,7 @@ module.exports = {
     ], // 13.2
     'triple-equals': [
       true,
+      'allow-null-check',
     ], // 15.1
     'comment-format': [
       true,
