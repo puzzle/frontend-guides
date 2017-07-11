@@ -128,14 +128,18 @@ Consider Github's [Primer Code Guidelines](http://primercss.io/guidelines/).
 
 TODO:
 
-* SASS usage
+* SASS usage --> Consider [Sass Guidelines](https://sass-guidelin.es/#syntax--formatting)
 * postCSS/autoprefixer/cssnano
-* SMACSS?
+* OOCSS, ACSS, BEM, SMACSS?
 
 
-## Hypertext Markup Language
+## Hypertext Markup Language (HTML)
 
 Consider Github's [Primer Code Guidelines](http://primercss.io/guidelines/).
+
+## SEO
+
+Is this part of these frontend guidelines?
 
 
 ## Images & Icons
@@ -144,6 +148,20 @@ TODO:
 
 * inline SVG
 * optimization?
+* Definde workflow with Sketchapp assets/exports
+
+
+## Animations
+
+TODO: Which tools and best practices to use? When to use which library for svg animation...?
+
+
+## Performance
+
+TODO: 
+
+* How to measure performance in our projects?
+* What should be the default benchmark for our projects?
 
 
 ## Preferred Packages & Widgets
@@ -153,3 +171,8 @@ TODO:
 * Selectize
 * Testing (AngularJS & Angular): Karma/Jasmine
 * ...
+
+
+## Security (Web/Browser/App)
+
+Is frontend security part of this frontend guide? XSS, 
