@@ -1,6 +1,6 @@
 {
   "name": "@puzzleitc/frontend-guides",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Puzzle Frontend Coding Guidelines",
   "main": "index.js",
   "repository": "https://github.com/puzzle/frontend-guides.git",
