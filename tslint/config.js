@@ -72,5 +72,9 @@ module.exports = {
       true,
       'check-format', // 22.2
     ],
+    typedef: [
+      true,
+      'call-signature'
+    ],
   },
 };
