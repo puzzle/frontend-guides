@@ -24,9 +24,11 @@ The following tasks are considered best practice:
 
 ## Package Management
 
+Recommendations:
+
 * Avoid installing modules globally
 * Use [npx](https://github.com/zkat/npx#readme) to execute otherwise globally installed modules (e.g. CLI tools to set up projects)
-* Use [Yarn](https://yarnpkg.com/) or [NPM](https://www.npmjs.com/) >= 5 that a lock file for deterministic and faster installations.
+* Use [Yarn](https://yarnpkg.com/) or [NPM](https://www.npmjs.com/) >= 5 that use a lock file for deterministic and faster installations.
 
 ### Yarn
 
